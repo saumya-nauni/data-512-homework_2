@@ -51,7 +51,7 @@ The data for this project is extracted using the Wikipedia API. The information 
 
 **wp_scored_city_articles_by_state.csv** - The CSV file that contains the article info, population and article quality. This file is used for the analysis
 
-## Data Description
+### Data Description
 
 - **state**: the state of the article
 - **regional_division**: the region of the state given by US Census Bureau
