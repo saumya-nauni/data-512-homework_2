@@ -35,21 +35,21 @@ The data for this project is extracted using the Wikipedia API. The information 
 ```
 
 ## Input Data
-- **NST-EST2022-POP.xlsx** - Excel file that contains the population estimates of every state by the US Census Bureau
+- `NST-EST2022-POP.xlsx` - Excel file that contains the population estimates of every state by the US Census Bureau
 
-- **US States by Region - US Census Bureau.xlsx** - Excel file that contains the region demarcation of states into regions defined by the US Census Bureau
+- `US States by Region - US Census Bureau.xlsx` - Excel file that contains the region demarcation of states into regions defined by the US Census Bureau
 
-- **us_cities_by_state_SEPT.2023.csv** - CSV file that contains the crawled wikipedia url and article_title for every city within each state.
+- `us_cities_by_state_SEPT.2023.csv` - CSV file that contains the crawled wikipedia url and article_title for every city within each state.
 
 ## Intermediate Data
 
-- **cities-info.json** - JSON file that is saved as the output from the wikipedia page info code to get the revision_id and page info for every city in the state.
+- `cities-info.json` - JSON file that is saved as the output from the wikipedia page info code to get the revision_id and page info for every city in the state.
 
-- **cities_article_quality.csv** - CSV file that is saved as the output from the ORES API code to get the article and quality score for each article.
+- `cities_article_quality.csv` - CSV file that is saved as the output from the ORES API code to get the article and quality score for each article.
 
 ## Data
 
-**wp_scored_city_articles_by_state.csv** - The CSV file that contains the article info, population and article quality. This file is used for the analysis
+`wp_scored_city_articles_by_state.csv` - The CSV file that contains the article info, population and article quality. This file is used for the analysis
 
 ### Data Description
 
